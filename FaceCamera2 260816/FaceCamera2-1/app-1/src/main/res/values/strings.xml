@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FaceCamera2</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="action_change_resolution">Change resolution</string>
+    <string name="external_storage_error">External storage cannot be accessed! The app cannot classify faces.</string>
+    <string name="action_toggle_face_detection">Toggle face detection</string>
+    <string name="segment_tongue">Segment tongue</string>
+    <string name="count_down">Please stick your tongue out. %1$d second(s) remaining</string>
+    <string name="canny_threshold">Canny threshold: %1$d</string>
+    <string name="change_focus">Change focus</string>
+    <string name="face_error">A face could not be detected. Adjust pose and try again.</string>
+    <string name="segmentation_title">Segmentation</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="Google"
+        android:title="@string/faceDetectEngineOption"
+        android:entries="@array/faceDetectEngines"
+        android:entryValues="@array/faceDetectEngines"
+        android:key="face_detect_engine" />
+</PreferenceScreen>

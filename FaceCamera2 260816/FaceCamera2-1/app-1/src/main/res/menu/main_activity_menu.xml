@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/action_toggle_face_detection"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_toggle_face_detection"
+        android:icon="@drawable/ic_face_black_24dp" />
+    <item
+        android:title="@string/action_change_resolution"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_change_resolution"
+        android:icon="@drawable/ic_crop_free_black_24dp" />
+    <item android:title="@string/switch_camera"
+        android:id="@+id/action_switch_camera"
+        android:icon="@drawable/ic_switch_camera_black_24dp"
+        app:showAsAction="ifRoom"
+        android:checkable="false"
+       />
+</menu>
